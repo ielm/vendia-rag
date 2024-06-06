@@ -1,0 +1,29 @@
+crawler:
+  start_urls:
+    - https://docs.vendia.com
+  link_extractor:
+    allow: '.*vendia\.com.*'
+    deny:
+      - "#"
+      - '\?'
+      - search
+      - archive
+      - news
+      - alumni
+      - announcement
+      - people
+      - topics
+      - membership
+      - section
+      - letter
+      - member
+      - user
+      - page
+      - event
+      - resource
+      - login
+index:
+  openAI_embedding_model: text-embedding-ada-002
+  text_splitter:
+    chunk_size: 1000
+    chunk_overlap: 100
