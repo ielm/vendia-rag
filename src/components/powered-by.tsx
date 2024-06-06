@@ -19,10 +19,6 @@ const PoweredBy = () => {
       and{" "}
       <a href="https://sdk.vercel.ai" target="_blank">
         Vercel AI SDK
-      </a>{" "}
-      ・{" "}
-      <a href="https://github.com/ielm/vendia-rag" target="_blank">
-        Source Code
       </a>
     </p>
   );
