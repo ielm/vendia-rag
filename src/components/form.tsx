@@ -12,10 +12,10 @@ const Form = ({ inputProps, buttonProps, onSubmit }: Props, ref: any) => {
   return (
     <form
       onSubmit={onSubmit}
-      className="relative m-auto flex items-center gap-4 justify-center bg-zinc-200 dark:bg-zinc-900"
+      className="relative m-auto flex items-center gap-4 justify-center bg-zinc-100 dark:bg-zinc-900"
       ref={ref}
     >
-      <Avatar isUser={true} className="md:size-10 bg-gray-300" />
+      <Avatar isUser={true} className="md:size-10 bg-zinc-300" />
 
       <input
         placeholder="Type a message..."
@@ -23,8 +23,8 @@ const Form = ({ inputProps, buttonProps, onSubmit }: Props, ref: any) => {
         {...inputProps}
         className={cx(
           "h-10 md:h-12 pl-4 pr-12 flex-1 rounded-xl",
-          "border border-zinc-400 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100",
-          "bg-zinc-200 dark:bg-zinc-800",
+          "border border-zinc-400 dark:border-zinc-800 text-zinc-900 dark:text-zinc-100",
+          "bg-zinc-100 dark:bg-zinc-900",
           inputProps.className,
         )}
         type="text"
