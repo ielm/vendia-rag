@@ -8,18 +8,7 @@ const PoweredBy = () => {
       <a href="https://vendia.com/" target="_blank">
         Website
       </a>
-      . <br /> Built using{" "}
-      <a href="https://www.langchain.com/" target="_blank">
-        LangChain
-      </a>
-      ,{" "}
-      <a href="https://upstash.com" target="_blank">
-        Upstash Vector
-      </a>{" "}
-      and{" "}
-      <a href="https://sdk.vercel.ai" target="_blank">
-        Vercel AI SDK
-      </a>
+      .
     </p>
   );
 };

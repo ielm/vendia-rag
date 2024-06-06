@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://ielm.io"),
   title: {
-    default: "Vendia Guru",
-    template: "Vendia Guru"
+    default: "Vendia Eliza",
+    template: "Vendia Eliza"
   },
-  description: "Vendia Guru is your personal assistant to help you navigate Vendia's digital landscape.",
+  description: "Vendia Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
 
   icons: {
     icon: "/favicon.ico",
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Vendia Guru, by Ivan Leon",
-    description: "Vendia Guru is your personal assistant to help you navigate Vendia's digital landscape.",
-    url: "https://guru.ielm.io",
-    siteName: "Vendia Guru",
+    title: "Vendia Eliza, by Ivan Leon",
+    description: "Vendia Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
+    url: "https://eliza.ielm.io",
+    siteName: "Vendia Eliza",
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    title: "Vendia Guru, by Ivan Leon",
+    title: "Vendia Eliza, by Ivan Leon",
     card: "summary_large_image",
   },
 };

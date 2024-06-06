@@ -17,12 +17,12 @@ export default function Home() {
 
   const { messages, input, handleInputChange, handleSubmit, setInput } =
     useChat({
-      api: "/api/guru",
+      api: "/api/eliza",
       initialMessages: [
         {
           id: "0",
           role: "system",
-          content: `Hello! I'm Ivan, your personal assistant here to help you navigate Vendia's digital landscape. How can I help you today?`,
+          content: `Hello! I'm ELIZA, your personal assistant here to help you navigate Vendia's digital landscape. How can I help you today?`,
         },
       ],
       onResponse: () => {
