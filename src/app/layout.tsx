@@ -6,8 +6,30 @@ import cx from "@/utils/cx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vendia Guru",
+  metadataBase: new URL("https://ielm.io"),
+  title: {
+    default: "Vendia Guru",
+    template: "Vendia Guru"
+  },
   description: "Vendia Guru is your personal assistant to help you navigate Vendia's digital landscape.",
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "Vendia Guru, by Ivan Leon",
+    description: "Vendia Guru is your personal assistant to help you navigate Vendia's digital landscape.",
+    url: "https://guru.ielm.io",
+    siteName: "Vendia Guru",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    title: "Vendia Guru, by Ivan Leon",
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
