@@ -7,12 +7,12 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ielm.io"),
+  metadataBase: new URL("https://eliza.ielm.io"),
   title: {
-    default: "Vendia Eliza",
-    template: "Vendia Eliza"
+    default: "ELIZA",
+    template: "ELIZA | %s",
   },
-  description: "Vendia Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
+  description: "Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
 
   icons: {
     icon: "/favicon.ico",
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Vendia Eliza, by Ivan Leon",
-    description: "Vendia Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
+    title: "Eliza, by Ivan Leon",
+    description: "Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
     url: "https://eliza.ielm.io",
-    siteName: "Vendia Eliza",
+    siteName: "Eliza",
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    title: "Vendia Eliza, by Ivan Leon",
+    title: "Eliza, by Ivan Leon",
     card: "summary_large_image",
   },
 };
