@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.3",
     "@tabler/icons-react": "^2.47.0",
     "@upstash/ratelimit": "^1.0.0",
     "@upstash/vector": "^0.1.0-alpha-13",
