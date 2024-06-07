@@ -22,7 +22,7 @@ export default function Home() {
         {
           id: "0",
           role: "system",
-          content: `Hello! I'm ELIZA, your personal assistant here to help you navigate Vendia's digital landscape. How can I help you today?`,
+          content: `Hello! I'm Eliza, your personal assistant here to help you navigate Vendia's digital landscape. How can I help you today?`,
         },
       ],
       onResponse: () => {

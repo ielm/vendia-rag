@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://eliza.ielm.io"),
   title: {
-    default: "ELIZA",
-    template: "ELIZA | %s",
+    default: "Eliza, by Ivan Leon",
+    template: "Eliza | %s",
   },
   description: "Eliza is your personal assistant to help you navigate Vendia's digital landscape.",
 
